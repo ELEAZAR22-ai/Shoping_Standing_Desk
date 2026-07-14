@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Attach add-to-cart to each product card button
     productCards.forEach((card, idx) => {
-        const btn = card.querySelector('button');
+        const btn = card.querySelector('.add-to-cart');
         const prod = products[idx];
 
         if (!btn || !prod) {
